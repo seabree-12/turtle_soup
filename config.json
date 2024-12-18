@@ -1,0 +1,30 @@
+{
+  "api_config": {
+    "dashscope_api_key": "",
+    "open_ai_api_base": "",
+    "model": "qwen-max"
+  },
+  "game_settings": {
+    "story_pools": {
+      "default": "stories.json",
+      "custom": "custom_stories.json"
+    },
+    "difficulty_levels": {
+      "简单": "easy",
+      "中等": "medium",
+      "高等": "hard",
+      "炼狱": "hell"
+    },
+    "default_difficulty": "medium"
+  },
+  "scoring": {
+    "max_score": 100,
+    "penalty_per_question": 2,
+    "penalty_time_factor": 0.5
+  },
+  "keywords": {
+    "start": "开始汤",
+    "end": "结束汤",
+    "tip": "提示"
+  }
+} 
